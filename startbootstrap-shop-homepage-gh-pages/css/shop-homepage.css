@@ -1,0 +1,42 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+.banner {
+  background-image: url("blue.jpg");
+ height: 250px;
+ width:auto;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+
+body {
+  padding-top: 56px;
+  
+}
+
+h1 {
+  text-align: center;
+   color: #FFFFFF
+}
+
+h2 {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Mr Dafoe";
+  src: url("../MrDafoe-Regular.ttf");
+}
+
+h2.my-4 {
+  font-family: "Mr Dafoe";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 50;
+  text-align: center;
+  margin-left: -20px;
+}

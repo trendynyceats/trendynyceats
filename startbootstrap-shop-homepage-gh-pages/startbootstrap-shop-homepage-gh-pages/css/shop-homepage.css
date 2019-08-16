@@ -1,0 +1,82 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+.banner {
+  background-image: url("blue.jpg");
+ height: 250px;
+ width:auto;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+
+body {
+  padding-top: 56px;
+
+}
+
+h1 {
+  text-align: center;
+   color: #FFFFFF
+}
+
+h2 {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Mr Dafoe";
+  src: url("../MrDafoe-Regular.ttf");
+}
+
+h2.my-4 {
+  font-family: "Mr Dafoe";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 50;
+  text-align: center;
+  margin-left: -20px;
+}
+
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #e0c709;
+	-webkit-box-shadow: 0px 1px 0px 0px #e0c709;
+	box-shadow: 0px 1px 0px 0px #e0c709;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f0e4a3), color-stop(1, #ffaa21));
+	background:-moz-linear-gradient(top, #f0e4a3 5%, #ffaa21 100%);
+	background:-webkit-linear-gradient(top, #f0e4a3 5%, #ffaa21 100%);
+	background:-o-linear-gradient(top, #f0e4a3 5%, #ffaa21 100%);
+	background:-ms-linear-gradient(top, #f0e4a3 5%, #ffaa21 100%);
+	background:linear-gradient(to bottom, #f0e4a3 5%, #ffaa21 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0e4a3', endColorstr='#ffaa21',GradientType=0);
+	background-color:#f0e4a3;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffdaa3;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #f0edd8;
+}
+.myButton:hover {
+	background:-moz-linear-gradient(top, #ffaa21 5%, #f0e4a3 100%);
+	background:-webkit-linear-gradient(top, #ffaa21 5%, #f0e4a3 100%);
+	background:-o-linear-gradient(top, #ffaa21 5%, #f0e4a3 100%);
+	background:-ms-linear-gradient(top, #ffaa21 5%, #f0e4a3 100%);
+	background:linear-gradient(to bottom, #ffaa21 5%, #f0e4a3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffaa21', endColorstr='#f0e4a3',GradientType=0);
+	background-color:#ffaa21;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
